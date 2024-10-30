@@ -1,0 +1,107 @@
+.fotoku{
+    border-radius: 100%;
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+}
+
+.fotoku:hover{
+    background-color: black;
+    box-shadow: 0px 0px 10px grey;
+
+}
+.hero.biru {
+    background-color: blue;
+}
+
+.hero.merah {
+    background-color: red;
+}
+
+.hero.kuning {
+    background-color: yellow;
+}
+
+.hero.hijau {
+    background-color: green;
+}
+
+.hero.ungu {
+    background-color: purple;
+}
+
+.text-biru {
+    color: blue;
+}
+
+.text-merah {
+    color: red;
+}
+
+.text-kuning {
+    color: yellow;
+}
+
+.text-hijau {
+    color: green;
+}
+
+.text-ungu {
+    color: purple;
+}
+
+/* Gaya default */
+.hero {
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+/* Style untuk container tombol */
+.theme-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Style umum untuk tombol tema */
+  .theme-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+  }
+  
+  /* Animasi hover */
+  .theme-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Warna khusus untuk setiap tema */
+  .theme-button.light {
+    background-color: #f7ca18;
+  }
+  
+  .theme-button.light:hover {
+    background-color: #f39c12;
+  }
+  
+  .theme-button.dark {
+    background-color: #333;
+  }
+  
+  .theme-button.dark:hover {
+    background-color: #222;
+  }
+  
+  .theme-button.blue-soft {
+    background-color: #87ceeb;
+  }
+  
+  .theme-button.blue-soft:hover {
+    background-color: #5aa9e6;
+  }
